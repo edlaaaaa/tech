@@ -45,7 +45,7 @@ render(){
                      height="80"
                      width="80"
                      color="#4fa94d"
-                     ariaLabe"tail-spin-loading"
+                     ariaLabe="tail-spin-loading"
                      radius="1"
                      wrapperStyle={{}}
                      wrapperClass=""/>
@@ -61,6 +61,7 @@ render(){
                     ))}
                 </ul>
                 </div>
+            )}
 
            {isFailed && (
             <div>
